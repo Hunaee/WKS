@@ -2,8 +2,18 @@
 Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utilisation de cette IA permettra aux enseignants d'accéder aux corrections de leurs élèves corrigés par cette dernière. Les enseignants auront également la possibilité d'acheter des interrogations pré-faites.
 
 ## Fonctionnalités
-* Accès à un système de dépot de fichier PDF ou dossier
-* Filtres intui
+* Accès à un __système de dépot__ de fichier PDF ou dossier
+* Accès à gamme de __templates d'interrogation__
+* Filtres intuitifs
+
+
+
+## Pré-requis
+
+
+## Technologies utilisés
+
+
 
 ## Pages web
 ### Page d’accueil (contenant les corrections)
