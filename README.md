@@ -3,7 +3,7 @@ Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utili
 
 ## Fonctionnalités
 * Accès à un __système de dépot__ de fichier PDF ou dossier
-* Accès à gamme de __templates d'interrogation__
+* Accès à une gamme de __templates d'interrogations__
 * Filtres intuitifs
 
 
