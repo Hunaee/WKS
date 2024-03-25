@@ -32,6 +32,6 @@ Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utili
 
 
 
-##LDB
+## LDB
 ### Modèle relationnel
 https://docs.google.com/spreadsheets/d/10yRuf3mnHQPw8vjk8jnRVviRiXYU_UBipyj5GDt44m8/edit?usp=sharing
