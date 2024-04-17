@@ -65,7 +65,7 @@ GET / index.php?page=logout
 
 ## Page catalogue
 
-GET / index.php?page=catalogue&action=recherher *(Filtre du catalogue)* //mais
+GET / index.php?page=catalogue&action=recherher *(Filtre du catalogue)* 
 
 GET / index.php?page=catalogue ///Ajouter un favoris
 
@@ -75,7 +75,7 @@ GET / index.php?page=catalogue ///Suppr un favoris
 
 GET / index.php?produit=2
 
-POST / index.php?produit=2&action=addtowish //PQ ICI C'EST UN GET BORDEL DE Q
+POST / index.php?produit=2&action=addtowish 
 
 POST / index.php?produit=2&action=remove 
 
