@@ -35,3 +35,65 @@ Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utili
 ## LDB
 ### Modèle relationnel
 https://docs.google.com/spreadsheets/d/10yRuf3mnHQPw8vjk8jnRVviRiXYU_UBipyj5GDt44m8/edit?usp=sharing
+
+
+
+
+
+# Architecture du site
+*Le 2 représente un article quelconque*
+
+
+## Page d'inscription
+
+GET / index.php?page=signup
+
+POST / index.php?page=signup&action=submit
+
+GET / index.php?page=confirmation
+
+
+## Page formulaire de connexion
+GET / index.php?page=login
+
+POST / index.php?page=login&action=submit
+
+GET / index.php?page=logout
+
+
+
+
+## Page catalogue
+
+GET / index.php?page=catalogue&action=recherher *(Filtre du catalogue)* //mais
+
+GET / index.php?page=catalogue ///Ajouter un favoris
+
+GET / index.php?page=catalogue ///Suppr un favoris
+
+## Page produit
+
+GET / index.php?produit=2
+
+POST / index.php?produit=2&action=addtowish //PQ ICI C'EST UN GET BORDEL DE Q
+
+POST / index.php?produit=2&action=remove 
+
+POST / index.php?produit=2&action=review
+
+
+
+## Page contact
+
+GET / index.php?page=contact
+
+
+
+
+
+
+
+
+
+moteur de recherche, catalogue, home, formulaire connexion, contact, item, fav, rating / comment,
+
