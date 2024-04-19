@@ -16,35 +16,8 @@ Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utili
 
 
 ## Pages web
-### Page d’accueil (contenant les corrections)
 
-*
-
-### Page profil
-
-### Page contact
-
-
-### Shop des interrogations
-### Page item
-
-### Wishlist
-
-
-
-## LDB
-### Modèle relationnel
-https://docs.google.com/spreadsheets/d/10yRuf3mnHQPw8vjk8jnRVviRiXYU_UBipyj5GDt44m8/edit?usp=sharing
-
-
-
-
-
-# Architecture du site
-*Le 2 représente un article quelconque*
-
-
-## Page d'inscription
+### Page d'inscription
 
 GET / index.php?page=signup
 
@@ -53,17 +26,15 @@ POST / index.php?page=signup&action=submit
 GET / index.php?page=confirmation
 
 
-## Page formulaire de connexion
+### Page formulaire de connexion
+
 GET / index.php?page=login
 
 POST / index.php?page=login&action=submit
 
 GET / index.php?page=logout
 
-
-
-
-## Page catalogue
+### Page catalogue / Page accueil
 
 GET / index.php?page=catalogue&action=recherher *(Filtre du catalogue)* 
 
@@ -71,7 +42,7 @@ GET / index.php?page=catalogue ///Ajouter un favoris
 
 GET / index.php?page=catalogue ///Suppr un favoris
 
-## Page produit
+### Page produit
 
 GET / index.php?produit=2
 
@@ -83,17 +54,25 @@ POST / index.php?produit=2&action=review
 
 
 
-## Page contact
+### Page profil
 
+### Page contact
 GET / index.php?page=contact
 
 
+### Page item
+
+### Wishlist
 
 
 
-
-
+## LDB
+### Modèle relationnel
+https://docs.google.com/spreadsheets/d/10yRuf3mnHQPw8vjk8jnRVviRiXYU_UBipyj5GDt44m8/edit?usp=sharing
 
 
 moteur de recherche, catalogue, home, formulaire connexion, contact, item, fav, rating / comment,
+
+
+
 
