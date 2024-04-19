@@ -60,8 +60,6 @@ POST / index.php?produit=2&action=review
 GET / index.php?page=contact
 
 
-### Page item
-
 ### Wishlist
 
 
