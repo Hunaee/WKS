@@ -44,13 +44,15 @@ GET / index.php?page=catalogue ///Suppr un favoris
 
 ### Page produit
 
-GET / index.php?produit=2
+GET /index.php?page=produit&id=2
 
-POST / index.php?produit=2&action=addtowish 
+POST /index.php?produit=2&interaction=wishlist&action=add
 
-POST / index.php?produit=2&action=remove 
+POST /index.php?produit=2&interaction=wishlist&action=del
 
-POST / index.php?produit=2&action=review
+POST /index.php?produit=2&interaction=review&action=add
+
+POST /index.php?produit=2&interaction=review&action=del
 
 
 
