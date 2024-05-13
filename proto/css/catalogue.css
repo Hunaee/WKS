@@ -1,0 +1,158 @@
+
+#items_avant_hero{
+    display: flex;
+}
+
+
+
+
+.sous_items_avant_hero{
+    margin-left:5%;
+    padding-left: 1%;
+    width:20%;
+    height: 30%;
+    align-self: center;
+    border-radius: 40px;
+}
+
+
+/* Breadcrumbs */
+#breadcrumbs_items{
+    display: flex;
+    justify-content: space-between;     
+
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+
+.breadcrumbs{
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-right:1% ;
+
+}
+
+/* Titre / Nom page */
+
+#titre_page{
+    margin-bottom: 1%;
+}
+
+/* Filtres */
+
+#filtre{
+    position: fixed;
+    display: table-column;
+}
+
+.sous_titre_filtre{
+    color:#8E8DC1;
+    margin-bottom: 0.5%;
+
+}
+
+#theme_filtre{
+    margin-top:3%;
+}
+
+.section_filtre{
+    font-size: 0.8rem;
+    margin: 0.5% 0 0.5% 0;
+    cursor: pointer;
+    user-select: none;
+
+
+}
+
+/* Produits */
+
+
+
+
+.bloc_image{
+    background-color: rgb(127, 171, 197);
+    width: 100%;
+    height: 70%;
+    border-radius: 40px;
+    box-shadow: 
+    10px 10px 30px rgba(0, 0, 0, 0.5), /* Ajoute une ombre portée de 10px floue */
+        inset -20px -30px 30px rgba(255, 255, 255, 0.7); /* Ajoute une ombre interne de 10px */
+}
+
+
+
+.categorie_produit{
+    margin-top:4%;
+    font-weight: 500;
+}
+
+
+.theme_produit{
+    font-size: 0.85rem;
+}
+
+
+/* Dekstop */
+/* Dekstop */
+/* Dekstop */
+@media only screen and (min-width: 800px) {
+
+    #produits{
+        margin-left: 15%;
+        width: 85%;
+        grid-gap: 20px;
+        display: grid;
+        padding-bottom: 5%;
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+    
+    .bloc_produit{
+        height:250px;
+    }
+    
+}
+
+
+
+/* Mobile */
+/* Mobile */
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    #filtre{
+        display: none;
+    }
+
+    .sous_items_avant_hero{
+        width: 60%;
+    }
+    
+    #items_avant_hero{
+        margin-top:23%;
+
+    }
+
+
+    #hero_section{
+        margin-top: 4%;
+    }
+    #hero_section_item{
+        width: 100px;
+    }
+
+    #produits{
+        width: 100%;
+        grid-gap: 15px;
+        display: grid;
+        padding-bottom: 5%;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    
+    .bloc_produit{
+        height:250px;
+    }
+}
