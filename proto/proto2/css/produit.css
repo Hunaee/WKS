@@ -1,0 +1,218 @@
+/* Breadcrumbs et titre */
+#items_avant_hero{
+    display: row;
+}
+
+
+#breadcrumbs_items{
+    display: flex;
+}
+
+
+.breadcrumbs{
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-right:1% ;
+
+}
+
+
+#titre_page{
+    margin-bottom: 1%;
+}
+
+
+/* Section principale */
+
+
+#hero_section{
+    display: flex;
+    width: 100%; /*Obligé de mettre une taille*/
+    height: 50%;/* Pour pouvoir donné des tailler aux enfants */
+    margin-top:1% ;
+}
+
+.sous_section_hero{
+    flex:1;
+}
+
+#bloc_produit{
+height: 100%;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+#img_produit{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(127, 171, 197);
+    align-self: center;
+    border-radius: 40px;
+    box-shadow: 
+    10px 10px 30px rgba(0, 0, 0, 0.5), /* Ajoute une ombre portée de 10px floue */
+    inset -20px -30px 30px rgba(255, 255, 255, 0.7); /* Ajoute une ombre interne de 10px */
+}
+
+
+/* Partie infos produit */
+
+#bloc_information_produit{
+    display: flex;
+    flex-direction: column; /* Alignement vertical des enfants */
+    justify-content: center; /* Centre verticalement les enfants */
+
+}
+
+#sous_titre{
+    font-weight: 600;
+
+}
+
+
+
+.information_produit{
+    margin-bottom: 2%;
+}
+
+
+.img_etoile{
+    margin-top:5%;
+    width: 5%;
+}
+
+
+/* Partie recherche similaire */
+
+
+#section_recherche_sim{
+    margin-top: 2%;
+    padding-bottom: 15%;
+    display: flex;
+    height: 15%;
+
+}
+
+#titre_recherche{
+    margin-top: 3%;
+}
+
+#section_img_recherche_sim{
+    flex:80;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.produit_recherche_sim {
+    width: 100%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+.img_recherche_sim{
+    width: 80%;
+    height: 100%;
+    background-color:rgb(127, 171, 197) ;
+    border-radius: 20px;
+    box-shadow: 
+    10px 10px 30px rgba(0, 0, 0, 0.5), /* Ajoute une ombre portée de 10px floue */
+    inset -20px -30px 30px rgba(255, 255, 255, 0.7); /* Ajoute une ombre interne de 10px */
+}
+
+.texte_info_recherche{
+    font-size: 0.7rem;
+}
+
+.categorie_titre{
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+/* Dekstop */
+/* Dekstop */
+/* Dekstop */
+@media only screen and (min-width: 800px) {
+
+    #section_recherche_sim{
+        display: flex;    
+    }
+
+    .img_recherche_sim{
+        width: 80%;
+        height: 100%;
+    }
+
+    #titre_recherche{
+    flex:20;
+    }
+    #section_img_recherche_sim{
+        flex:80;
+    }
+
+    
+}
+
+
+
+/* Mobile */
+/* Mobile */
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    #items_avant_hero{
+        margin-top: 23%;
+    }
+
+
+    #hero_section > :nth-child(n+3) { /*Les enfants après le child 2*/
+        flex-direction: column;
+    }
+
+
+
+    #img_produit{
+        width: 150px;
+        height:250px;
+    }
+
+    #section_recherche_sim{
+        flex-direction: column;
+    }
+
+    #section_recherche_sim > #titre_recherche{
+        display: flex;
+        justify-content: center;
+        padding: 2% 0 2% 0;
+        margin: 10% 0 10% 0;
+        border-top: 1px solid black;
+        /* border-bottom: 1px solid black; */
+    }
+    
+    #section_img_recherche_sim{
+        width: 100%;
+        height: fit-content;
+
+    }
+
+
+    .img_recherche_sim{
+        height: 100px;
+        width:100%;
+    }
+
+    #section_img_recherche_sim{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+
+    }
+    
+/*
+    #section_img_recherche_sim{
+        height: 100%;
+        width: 100%;
+    } */
+}
