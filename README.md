@@ -1,3 +1,44 @@
+1. You can use herve@herve.com to connect (if you have taken the db)
+2. if you register, you must also log in afterwards (because we don't have the e-mail validation right now)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Autres :
+
+
 # Core-Ect - Le site à destination des enseignants
 Le site est basé sur l'intelligence artificielle créée par _Open AI_. L'utilisation de cette IA permettra aux enseignants d'accéder aux corrections de leurs élèves corrigés par cette dernière. Les enseignants auront également la possibilité d'acheter des interrogations pré-faites.
 
