@@ -8,7 +8,7 @@
 
 
 
-# For me :
+# For me
 
 
 # Core-Ect - Le site à destination des enseignants
